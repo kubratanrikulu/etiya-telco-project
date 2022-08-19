@@ -6,6 +6,7 @@ import { SettingsMenuComponent } from './components/settings-menu/settings-menu.
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { UserInfoComponent } from './components/user-info/user-info.component';
 import { TableInfoComponent } from './components/table-info/table-info.component';
+import { AddNewItemButtonComponent } from './components/add-new-item-button/add-new-item-button.component';
 
 
 
@@ -16,7 +17,8 @@ import { TableInfoComponent } from './components/table-info/table-info.component
     SettingsMenuComponent,
     NavbarComponent,
     UserInfoComponent,
-    TableInfoComponent
+    TableInfoComponent,
+    AddNewItemButtonComponent
   ],
   imports: [
     CommonModule
@@ -27,7 +29,8 @@ import { TableInfoComponent } from './components/table-info/table-info.component
     SettingsMenuComponent,
     NavbarComponent,
     UserInfoComponent,
-    TableInfoComponent
+    TableInfoComponent,
+    AddNewItemButtonComponent
   ]
 })
 export class SharedModule { }
