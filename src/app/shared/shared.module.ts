@@ -14,6 +14,7 @@ import { MainLayoutComponent } from './components/main-layout/main-layout.compon
 import { InfoTitleComponent } from './components/info-title/info-title.component';
 import { AddNewItemButtonComponent } from './components/add-new-item-button/add-new-item-button.component';
 import { ShowcaseComponent } from './pages/showcase/showcase.component';
+import { CustomerInfoComponent } from './components/customer-info/customer-info.component';
 
 
 
@@ -32,7 +33,8 @@ import { ShowcaseComponent } from './pages/showcase/showcase.component';
     MainLayoutComponent,
     InfoTitleComponent,
     AddNewItemButtonComponent,
-    ShowcaseComponent
+    ShowcaseComponent,
+    CustomerInfoComponent
   ],
   imports: [
     CommonModule
@@ -50,7 +52,8 @@ import { ShowcaseComponent } from './pages/showcase/showcase.component';
     WarningMessageComponent,
     MainLayoutComponent,
     InfoTitleComponent,
-    AddNewItemButtonComponent
+    AddNewItemButtonComponent,
+    CustomerInfoComponent
   ]
 })
 export class SharedModule { }
