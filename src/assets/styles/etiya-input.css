@@ -28,9 +28,8 @@
     box-sizing: border-box;
 
 
-    width: 282px;
-    height: 30px;
-    margin-bottom: 20px;
+    width: 299px!important;
+    height: 50px;
 
     background: #0D2B50;
     border: 1px solid #F58220;

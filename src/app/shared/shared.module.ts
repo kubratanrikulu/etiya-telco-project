@@ -16,6 +16,17 @@ import { AddNewItemButtonComponent } from './components/add-new-item-button/add-
 import { ShowcaseComponent } from './pages/showcase/showcase.component';
 import { TableAccordionComponent } from './components/table-accordion/table-accordion.component';
 import { BarMenuComponent } from './components/bar-menu/bar-menu.component';
+import { ConfirmationDialogComponent } from './components/confirmation-dialog/confirmation-dialog.component';
+import {ButtonModule} from 'primeng/button';
+import {ToastModule} from 'primeng/toast';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MessageService } from 'primeng/api';
+import { CustomToastComponent } from './components/custom-toast/custom-toast.component';
+import { BasketComponent } from './components/basket/basket.component';
+import { TabMenuComponent } from './components/tab-menu/tab-menu.component';
+import { OfferSelectionComponent } from './components/offer-selection/offer-selection.component';
+import { CreateCustomerComponent } from './pages/create-customer/create-customer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -36,10 +47,20 @@ import { BarMenuComponent } from './components/bar-menu/bar-menu.component';
     AddNewItemButtonComponent,
     ShowcaseComponent,
     TableAccordionComponent,
-    BarMenuComponent
+    BarMenuComponent,
+    ConfirmationDialogComponent,
+    CustomToastComponent,
+    BasketComponent,
+    TabMenuComponent,
+    OfferSelectionComponent,
+    CreateCustomerComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ToastModule,
+    ButtonModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   exports:[
     OverlayTitleComponent,
@@ -56,8 +77,16 @@ import { BarMenuComponent } from './components/bar-menu/bar-menu.component';
     InfoTitleComponent,
     AddNewItemButtonComponent,
     TableAccordionComponent,
-    BarMenuComponent
-
-  ]
+    BarMenuComponent,
+    ConfirmationDialogComponent,
+    CustomToastComponent,
+    BasketComponent,
+    TabMenuComponent,
+    OfferSelectionComponent,
+    CreateCustomerComponent,
+    ReactiveFormsModule,
+    FormsModule
+  ],
+  providers:[MessageService]
 })
 export class SharedModule { }
