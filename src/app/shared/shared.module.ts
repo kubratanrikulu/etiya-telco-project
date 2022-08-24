@@ -27,6 +27,7 @@ import { TabMenuComponent } from './components/tab-menu/tab-menu.component';
 import { OfferSelectionComponent } from './components/offer-selection/offer-selection.component';
 import { CreateCustomerComponent } from './pages/create-customer/create-customer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AddressInfoComponent } from './pages/address-info/address-info.component';
 
 
 
@@ -53,7 +54,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BasketComponent,
     TabMenuComponent,
     OfferSelectionComponent,
-    CreateCustomerComponent
+    CreateCustomerComponent,
+    AddressInfoComponent
   ],
   imports: [
     CommonModule,
@@ -85,7 +87,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     OfferSelectionComponent,
     CreateCustomerComponent,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    AddressInfoComponent
   ],
   providers:[MessageService]
 })

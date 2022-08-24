@@ -53,3 +53,11 @@ float: right;
 .info {
  overflow:hidden;
 }
+.e-new-address{
+  background-color: #061F3E;
+}
+.e-new-address-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
